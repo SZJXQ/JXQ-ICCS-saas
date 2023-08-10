@@ -1,14 +1,14 @@
-# 蓝鲸智云容器管理平台SaaS
+# 智云容器管理平台SaaS
 ![](docs/resource/logo/bk_bcs.png)
 ---
-[![license](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)](https://github.com/Tencent/bk-bcs-saas/blob/master/LICENSE) [![Release Version](https://img.shields.io/badge/release-1.3.23-brightgreen.svg)](https://github.com/Tencent/bk-bcs-saas/releases) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tencent/bk-bcs-saas/pulls) [![BK Pipelines Status](https://api.bkdevops.qq.com/process/api/external/pipelines/projects/cc/p-c02db56ac633447eb2e740b3fd0b6d2b/badge?X-DEVOPS-PROJECT-ID=cc)](https://api.bkdevops.qq.com/process/api/external/pipelines/projects/bcs/p-c03c759b697f494ab14e01018eccb052/badge?X-DEVOPS-PROJECT-ID=bcs) [![](https://travis-ci.com/Tencent/bk-bcs-saas.svg?token=ypkHQqxUR3Y3ctuD7qFS&branch=master)](https://travis-ci.com/Tencent/bk-bcs-saas)
+[![license](https://github.com/Tencent/bk-bcs-saas/blob/master/LICENSE) [![Release Version](https://img.shields.io/badge/release-1.3.23-brightgreen.svg)](https://github.com/Tencent/bk-bcs-saas/releases) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tencent/bk-bcs-saas/pulls) [![BK Pipelines Status](https://api.bkdevops.qq.com/process/api/external/pipelines/projects/cc/p-c02db56ac633447eb2e740b3fd0b6d2b/badge?X-DEVOPS-PROJECT-ID=cc)](https://api.bkdevops.qq.com/process/api/external/pipelines/projects/bcs/p-c03c759b697f494ab14e01018eccb052/badge?X-DEVOPS-PROJECT-ID=bcs) [![](https://travis-ci.com/Tencent/bk-bcs-saas.svg?token=ypkHQqxUR3Y3ctuD7qFS&branch=master)](https://travis-ci.com/Tencent/bk-bcs-saas)
 
 
 [(English Documents Available)](readme_en.md)
 
 >**提示**: :warning: 当前项目不再维护，已整体迁移至[BK-BCS](https://github.com/Tencent/bk-bcs/tree/master/bcs-ui)仓库下
 
-蓝鲸智云容器管理平台(BCS，BlueKing Container Service)是高度可扩展、灵活易用的容器管理服务。蓝鲸容器管理平台支持两种不同的集群模式，分别为原生Kubernetes模式和基于Mesos自研的模式。使用该平台，用户无需关注基础设施的安装、运维和管理，只需要调用简单的API，或者在页面上进行简单的配置，便可对容器进行启动、停止等操作，查看集群、容器及服务的状态，以及使用各种组件服务。用户可以依据自身的需要选择集群模式和容器编排的方式，以满足业务的特定要求。
+蓝云容器管理平台(BCS，BlueKing Container Service)是高度可扩展、灵活易用的容器管理服务。蓝鲸容器管理平台支持两种不同的集群模式，分别为原生Kubernetes模式和基于Mesos自研的模式。使用该平台，用户无需关注基础设施的安装、运维和管理，只需要调用简单的API，或者在页面上进行简单的配置，便可对容器进行启动、停止等操作，查看集群、容器及服务的状态，以及使用各种组件服务。用户可以依据自身的需要选择集群模式和容器编排的方式，以满足业务的特定要求。
 
 本次开源的是蓝鲸智云容器管理平台的SaaS，它提供了友好的操作界面，支持对项目集群、节点、命名空间、部署配置、仓库镜像、应用等进行可视化界面操作管理，并提供了WebConsole可快捷查看集群状态的命令行服务，针对K8S集群模式支持使用Helm进行K8S应用的部署和管理。
 
